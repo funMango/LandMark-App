@@ -14,6 +14,8 @@
 		5ACC01822AD4057A005AF027 /* LankMarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC01812AD4057A005AF027 /* LankMarkTests.swift */; };
 		5ACC018C2AD4057A005AF027 /* LankMarkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC018B2AD4057A005AF027 /* LankMarkUITests.swift */; };
 		5ACC018E2AD4057A005AF027 /* LankMarkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC018D2AD4057A005AF027 /* LankMarkUITestsLaunchTests.swift */; };
+		5ACC019B2AD40AD0005AF027 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC019A2AD40AD0005AF027 /* CircleImage.swift */; };
+		5AF3C4A62AD43CDC00328F58 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3C4A52AD43CDC00328F58 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		5ACC01872AD4057A005AF027 /* LankMarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LankMarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ACC018B2AD4057A005AF027 /* LankMarkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LankMarkUITests.swift; sourceTree = "<group>"; };
 		5ACC018D2AD4057A005AF027 /* LankMarkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LankMarkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5ACC019A2AD40AD0005AF027 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		5AF3C4A52AD43CDC00328F58 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				5ACC01702AD40578005AF027 /* LankMarkApp.swift */,
 				5ACC01722AD40578005AF027 /* ContentView.swift */,
 				5ACC01742AD4057A005AF027 /* Assets.xcassets */,
+				5ACC019A2AD40AD0005AF027 /* CircleImage.swift */,
+				5AF3C4A52AD43CDC00328F58 /* MapView.swift */,
 				5ACC01762AD4057A005AF027 /* Preview Content */,
 			);
 			path = LankMark;
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ACC01732AD40578005AF027 /* ContentView.swift in Sources */,
+				5AF3C4A62AD43CDC00328F58 /* MapView.swift in Sources */,
 				5ACC01712AD40578005AF027 /* LankMarkApp.swift in Sources */,
+				5ACC019B2AD40AD0005AF027 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +437,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +466,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
