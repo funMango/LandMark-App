@@ -10,9 +10,7 @@ import MapKit
 
 struct MapView: View {
     var body: some View {
-        if #available(iOS 17.0, *) {
-            Map(initialPosition: .region(region))
-        }
+        Map(initialPosition: .region(region))
     }
     
     private var region: MKCoordinateRegion {
