@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5A7333162AD820D3008D5CF9 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7333152AD820D3008D5CF9 /* ModelData.swift */; };
+		5A9CD8982ADD642700905A15 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9CD8972ADD642700905A15 /* LandmarkRow.swift */; };
 		5AA9A8CD2AD698CB005A9DDF /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5AA9A8CC2AD698CA005A9DDF /* landmarkData.json */; };
-		5AA9A8CF2AD69953005A9DDF /* LankMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA9A8CE2AD69953005A9DDF /* LankMark.swift */; };
+		5AA9A8CF2AD69953005A9DDF /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA9A8CE2AD69953005A9DDF /* Landmark.swift */; };
 		5ACC01712AD40578005AF027 /* LankMarkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC01702AD40578005AF027 /* LankMarkApp.swift */; };
 		5ACC01732AD40578005AF027 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC01722AD40578005AF027 /* ContentView.swift */; };
 		5ACC01752AD4057A005AF027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACC01742AD4057A005AF027 /* Assets.xcassets */; };
@@ -40,8 +41,9 @@
 
 /* Begin PBXFileReference section */
 		5A7333152AD820D3008D5CF9 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		5A9CD8972ADD642700905A15 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		5AA9A8CC2AD698CA005A9DDF /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
-		5AA9A8CE2AD69953005A9DDF /* LankMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LankMark.swift; sourceTree = "<group>"; };
+		5AA9A8CE2AD69953005A9DDF /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		5ACC016D2AD40578005AF027 /* LankMark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LankMark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ACC01702AD40578005AF027 /* LankMarkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LankMarkApp.swift; sourceTree = "<group>"; };
 		5ACC01722AD40578005AF027 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				5ACC01722AD40578005AF027 /* ContentView.swift */,
 				5AF3C4A52AD43CDC00328F58 /* MapView.swift */,
 				5ACC019A2AD40AD0005AF027 /* CircleImage.swift */,
+				5A9CD8972ADD642700905A15 /* LandmarkRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -94,7 +97,7 @@
 		5A7333182AD82F6C008D5CF9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5AA9A8CE2AD69953005A9DDF /* LankMark.swift */,
+				5AA9A8CE2AD69953005A9DDF /* Landmark.swift */,
 				5A7333152AD820D3008D5CF9 /* ModelData.swift */,
 			);
 			path = Models;
@@ -104,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				5AA9A8CC2AD698CA005A9DDF /* landmarkData.json */,
+				5ACC01742AD4057A005AF027 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -135,7 +139,6 @@
 				5A7333172AD82F57008D5CF9 /* Views */,
 				5A7333182AD82F6C008D5CF9 /* Models */,
 				5A7333192AD82F75008D5CF9 /* Resources */,
-				5ACC01742AD4057A005AF027 /* Assets.xcassets */,
 				5ACC01762AD4057A005AF027 /* Preview Content */,
 			);
 			path = LankMark;
@@ -298,8 +301,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ACC01732AD40578005AF027 /* ContentView.swift in Sources */,
+				5A9CD8982ADD642700905A15 /* LandmarkRow.swift in Sources */,
 				5AF3C4A62AD43CDC00328F58 /* MapView.swift in Sources */,
-				5AA9A8CF2AD69953005A9DDF /* LankMark.swift in Sources */,
+				5AA9A8CF2AD69953005A9DDF /* Landmark.swift in Sources */,
 				5ACC01712AD40578005AF027 /* LankMarkApp.swift in Sources */,
 				5ACC019B2AD40AD0005AF027 /* CircleImage.swift in Sources */,
 				5A7333162AD820D3008D5CF9 /* ModelData.swift in Sources */,
